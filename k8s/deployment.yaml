@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: calendar-app
-        image: ghcr.io/sayjeyhi/calendar-app:latest
+        image: ghcr.io/stevejonk/calendar-app:latest
         ports:
         - containerPort: 3000
         livenessProbe:
