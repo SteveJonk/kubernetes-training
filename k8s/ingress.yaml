@@ -12,10 +12,10 @@ spec:
   ingressClassName: traefik
   tls:
     - hosts:
-        - 'calendar-test.iwaskidding.com'
+        - 'kube.stevejonk.com'
       secretName: calendar-app-tls-v2
   rules:
-    - host: 'calendar-test.iwaskidding.com'
+    - host: 'kube.stevejonk.com'
       http:
         paths:
           - path: /
